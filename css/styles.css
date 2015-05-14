@@ -4,8 +4,10 @@
       background: #ccc;
     }
 
+
 .header{
 	background-color: #11181e;
+	box-shadow: 0 20px 0 0 #0f141a inset, 0 -20px 0 0 #0f141a inset;
 }
 
 .my-portfolio h1{
@@ -17,16 +19,84 @@
 }
 
 .nav{
-	width: 600px;
+
+	width: 500px;
 	margin: 0 auto;
 	text-align: center;
 }
 
 .nav ul{
 	list-style: none;
+	padding: 0;
 }
 
 .nav li{
 	float: left;
 	width: 25%;
 }
+
+.nav a{
+	color: #ededed;
+	text-decoration: none;
+	text-shadow: 1px 1px #545454;
+}
+
+.ribbon {
+
+		 width: 50%;
+		    
+		 position: relative;
+		 background: #67a735;
+		 color: #fff;
+		 text-align: center;
+		 padding: 1em 2em; /* Adjust to suit */
+		 margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+		}
+		.ribbon:before, .ribbon:after {
+		 content: "";
+		 position: absolute;
+		 display: block;
+		 bottom: -1em;
+		 border: 1.5em solid #57932f;
+		 z-index: -1;
+		}
+		.ribbon:before {
+		 left: -2em;
+		 border-right-width: 1.5em;
+		 border-left-color: transparent;
+		}
+		.ribbon:after {
+		 right: -2em;
+		 border-left-width: 1.5em;
+		 border-right-color: transparent;
+		}
+		.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+		 content: "";
+		 position: absolute;
+		 display: block;
+		 border-style: solid;
+		 border-color: #804f7c transparent transparent transparent;
+		 bottom: -1em;
+		}
+		.ribbon .ribbon-content:before {
+		 left: 0;
+		 border-width: 1em 0 0 1em;
+		}
+		.ribbon .ribbon-content:after {
+		 right: 0;
+		 border-width: 1em 1em 0 0;
+		}
+
+.portfolio {
+	width: 900px;
+	height: 500px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+.portfolio img{
+	margin: auto 10px;
+}
+
+
+
