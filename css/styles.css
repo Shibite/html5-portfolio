@@ -17,42 +17,16 @@
 }
 
 .nav{
-	background-color: black;
-	width: 500px;
-	display: block;
+	width: 600px;
 	margin: 0 auto;
 	text-align: center;
 }
 
 .nav ul{
-	background-color: white;
-	margin: 0;
-	padding: 0;
-	display: inline-block;
 	list-style: none;
 }
 
 .nav li{
 	float: left;
-	margin: 0;
-	padding: 0;
-
+	width: 25%;
 }
-
-.nav ul a{
-	display: block;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
