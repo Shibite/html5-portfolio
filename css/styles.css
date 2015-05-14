@@ -1,3 +1,9 @@
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ccc;
+    }
+
 .header{
 	background-color: #11181e;
 }
@@ -9,3 +15,44 @@
 .my-portfolio p{
 	color:#b2b2b2;
 }
+
+.nav{
+	background-color: black;
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.nav ul{
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	list-style: none;
+}
+
+.nav li{
+	float: left;
+	margin: 0;
+	padding: 0;
+
+}
+
+.nav ul a{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
